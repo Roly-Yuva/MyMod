@@ -1,0 +1,3 @@
+displayName = My First Mod
+author = Roly Yuva
+version = 0.1
