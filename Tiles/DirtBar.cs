@@ -7,8 +7,7 @@ namespace MyMod.Tiles
 {
 	public class DirtBar : ModTile
 	{
-		public override void SetDefaults()
-		{
+		public override void SetDefaults() {
             Main.tileShine[Type] = 0;
 			Main.tileSolid[Type] = true;
             Main.tileSolidTop[Type] = true;

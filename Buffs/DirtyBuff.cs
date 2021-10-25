@@ -5,8 +5,7 @@ namespace MyMod.Buffs
 {
     public class DirtyBuff : ModBuff
     {
-        public override void SetDefaults()
-        {
+        public override void SetDefaults() {
             DisplayName.SetDefault("Dirty");
             Description.SetDefault("You are dirty. You have decreased speed.\nINCOMPLETE!!!");
             Main.buffNoTimeDisplay[Type] = false;
@@ -14,8 +13,7 @@ namespace MyMod.Buffs
             Main.buffNoSave[Type] = true;
         }
 
-        public override void Update(Player player, ref int buffIndex)
-        {
+        public override void Update(Player player, ref int buffIndex) {
             player.buffTime[buffIndex] = 18000;
             player.moveSpeed *= (float)0.75;
             player.meleeSpeed *= (float)0.75;

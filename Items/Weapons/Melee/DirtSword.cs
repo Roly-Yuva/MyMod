@@ -6,13 +6,12 @@ namespace MyMod.Items.Weapons.Melee
 {
     public class DirtSword : ModItem
     {
-        public override void SetStaticDefaults()
-        {
+        public override void SetStaticDefaults() {
+            DisplayName.SetDefault("Dirt Sword");
             Tooltip.SetDefault("'It's a dirt sword. What did you expect?'");
         }
 
-        public override void SetDefaults()
-        {
+        public override void SetDefaults() {
             item.width = 27;
             item.height = 28;
             item.maxStack = 1;
@@ -27,8 +26,7 @@ namespace MyMod.Items.Weapons.Melee
             // Set other item.X values here
         }
 
-        public override void AddRecipes()
-        {
+        public override void AddRecipes() {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(mod.ItemType("DirtBar"), 15);
             recipe.AddTile(TileID.WorkBenches);

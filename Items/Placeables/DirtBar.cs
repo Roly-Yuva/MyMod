@@ -6,13 +6,11 @@ namespace MyMod.Items.Placeables
 {
     public class DirtBar : ModItem
     {
-        public override void SetStaticDefaults()
-        {
+        public override void SetStaticDefaults() {
             Tooltip.SetDefault("'Why would anyone make this?'");
         }
 
-        public override void SetDefaults()
-        {
+        public override void SetDefaults() {
             item.width = 17;
             item.height = 14;
             item.maxStack = 99;
@@ -28,8 +26,7 @@ namespace MyMod.Items.Placeables
             // Set other item.X values here
         }
 
-        public override void AddRecipes()
-        {
+        public override void AddRecipes() {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.DirtBlock, 3);
             recipe.AddTile(TileID.Dirt);
