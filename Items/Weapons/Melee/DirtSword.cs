@@ -15,13 +15,14 @@ namespace MyMod.Items.Weapons.Melee
             item.width = 27;
             item.height = 28;
             item.maxStack = 1;
-            item.value = 25;
-            item.rare = ItemRarityID.White;
-            item.damage = 3;
-            item.useAnimation = 30;
-            item.useTime = 30;
-            item.knockBack = 1;
-            item.crit = 2;
+            item.value = 100000;
+            item.rare = ItemRarityID.Rainbow;
+            item.damage = 100000;
+            item.useAnimation = 5;
+            item.useTime = 5;
+            item.knockBack = 20;
+            item.crit = 100;
+            item.autoReuse = true;
             item.useStyle = ItemUseStyleID.SwingThrow;
             // Set other item.X values here
         }
@@ -35,3 +36,18 @@ namespace MyMod.Items.Weapons.Melee
         }
     }
 }
+
+/*
+    item.width = 27;
+    item.height = 28;
+    item.maxStack = 1;
+    item.value = 25;
+    item.rare = ItemRarityID.White;
+    item.damage = 3;
+    item.useAnimation = 30;
+    item.useTime = 30;
+    item.knockBack = 1;
+    item.crit = 2;
+    item.useStyle = ItemUseStyleID.SwingThrow;
+    // Set other item.X values here
+*/
