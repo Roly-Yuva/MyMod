@@ -16,7 +16,7 @@ namespace MyMod.Items.Weapons.Melee
             item.height = 28;
             item.maxStack = 1;
             item.value = 100000;
-            item.rare = ItemRarityID.Rainbow;
+            item.rare = ItemRarityID.Quest;
             item.damage = 100000;
             item.useAnimation = 5;
             item.useTime = 5;
