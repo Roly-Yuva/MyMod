@@ -30,6 +30,7 @@ namespace MyMod.Items.Weapons.Summon
             item.useStyle = ItemUseStyleID.SwingThrow;
             item.UseSound = SoundID.Item44;
             item.buffType = mod.BuffType("DirtyBuff");
+            item.buffTime = 18000;
             //item.shoot = mod.ProjectileType("DirtMinion");
         }
 
